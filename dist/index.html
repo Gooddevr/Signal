@@ -38,15 +38,15 @@
                   </div>
                   <nav class="nav">
                         <ul class="nav-list-items">
-                              <li class="nav-list__item"><a href="#">О нас</a></li>
-                              <li class="nav-list__item"><a href="#">Ролики</a></li>
-                              <li class="nav-list__item"><a href="#">Услуги</a></li>
-                              <li class="nav-list__item"><a href="#">Партнеры</a></li>
-                              <li class="nav-list__item"><a href="#">Контакты</a></li>
+                              <li class="nav-list__item"><a href="#about">О нас</a></li>
+                              <li class="nav-list__item"><a href="#video">Ролики</a></li>
+                              <li class="nav-list__item"><a href="#service">Услуги</a></li>
+                              <li class="nav-list__item"><a href="#partners">Партнеры</a></li>
+                              <li class="nav-list__item"><a href="#contacts">Контакты</a></li>
                         </ul>
                   </nav>
             </div>
-            <div class="social-icon"><a href="#"><img src="../img/Header/R.svg" alt="rutube-icon" class="social-icon_img"><img src="../img/Header/rutubeBIGbutton.svg" alt="socialButton" class="social-button_img"></a></div>
+            <div class="social-icon"><a href="https://rutube.ru/" target="_blank"><img src="../img/Header/R.svg" alt="rutube-icon" class="social-icon_img"><img src="../img/Header/rutubeBIGbutton.svg" alt="socialButton" class="social-button_img"></a></div>
       </div>
       </div>
       <div class="hero-content-container">
@@ -55,48 +55,58 @@
             по креативному и техническому обеспечению мероприятий</h2>
       </div>
       <div class="header-hero__contacts_wrapper">
-            <p class="contacts__telephone telephone"><span>+7(925)</span> 077-41-57</p>
-            <a href="#" class="arrow-down"><img src="../img/Header/V.svg" alt="arrow-down"></a>
+            <p class="contacts__telephone telephone"><a href="tel:+79250774157"><span>+7(925)</span> 077-41-57</a></p>
+            <a href="#main-video__title" class="arrow-down">
+                  <svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23 30L37 44L51 30" stroke="white" stroke-width="2"/>
+                        <circle cx="36.5" cy="36.5" r="35.5" stroke="white" stroke-width="2"/>
+                        </svg>
+            </a>
             <div class="contacts__email">
-                  <p><img src="../img/Header/Vector.svg" alt="icon-mail" class="contacts__email_img">info@signal-tv.com</p>
-                  </div>
+                  <a href="mailto:info@signal-tv.com">
+                        <p><img src="../img/Header/Vector.svg" alt="icon-mail" class="contacts__email_img">info@signal-tv.com</p>
+                        </div>
+                  </a>
             </div>
       </div>
 </header>
         <main class="main">
-    <div class="main-video">
-        <h2 class="main-video__title main-title">ролики</h2>
+    <div class="main-video" id="video">
+        <h2 class="main-video__title main-title" id="main-video__title">ролики</h2>
         <div class="video-slider">
             <div class="swiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="../img/main/slidebike.jpg" alt="slide"><div class="swiper-links"><div class="swiper-links__ref-container"><a href="#" class="swiper-links__ref ref-bike">BMX</a>
-                    <svg class="swiper-slide-arrow" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <div class="swiper-slide"><img src="../img/main/slidebike.jpg" alt="slide" class="swiper-slide-image">
+                    <div class="swiper-links"><a href="#" class="swiper-links__ref ref-bike">BMX <svg class="swiper-slide-arrow" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 1H16M16 1V17M16 1L0.888889 16.1111" stroke="white" stroke-width="2"/>
-                        </svg>
-                    </div>
+                        </svg></a>
                     <div class="swiper-social-icon"><a href="#"><img src="../img/Header/R.svg" alt="rutube-icon" class="swiper-social-icon_img"><img src="../img/Header/rutubeBIGbutton.svg" alt="socialButton" class="swiper-social-button_img"></a></div>
-                </div></div>
-                  <div class="swiper-slide"><img src="../img/main/slidebuilding.jpg" alt="slide">
-                    <div class="swiper-links"><a href="#" class="swiper-links__ref ref-building">Архитектура</a>
+                </div>
+            </div>
+                  <div class="swiper-slide"><img src="../img/main/slidebuilding.jpg" alt="slide" class="swiper-slide-image">
+                    <div class="swiper-links"><a href="#" class="swiper-links__ref ref-building">Архитектура
                         <svg class="swiper-slide-arrow" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 1H16M16 1V17M16 1L0.888889 16.1111" stroke="white" stroke-width="2"/>
                             </svg>
+                    </a>
                         <div class="swiper-social-icon"><a href="#"><img src="../img/Header/R.svg" alt="rutube-icon" class="swiper-social-icon_img"><img src="../img/Header/rutubeBIGbutton.svg" alt="socialButton" class="swiper-social-button_img"></a></div>
                     </div>
                 </div>
-                  <div class="swiper-slide"><img src="../img/main/slidedj.jpg" alt="slide">
-                    <div class="swiper-links"><a href="#" class="swiper-links__ref ref-dj">Moscow Night Sport</a>
+                  <div class="swiper-slide"><img src="../img/main/slidedj.jpg" alt="slide" class="swiper-slide-image">
+                    <div class="swiper-links"><a href="#" class="swiper-links__ref ref-dj">Moscow Night Sport
                         <svg class="swiper-slide-arrow" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 1H16M16 1V17M16 1L0.888889 16.1111" stroke="white" stroke-width="2"/>
                             </svg>
+                    </a>
                         <div class="swiper-social-icon"><a href="#"><img src="../img/Header/R.svg" alt="rutube-icon" class="swiper-social-icon_img"><img src="../img/Header/rutubeBIGbutton.svg" alt="socialButton" class="swiper-social-button_img"></a></div>
                     </div>
                 </div>
-                  <div class="swiper-slide"><img src="../img/main/slideneo.jpg" alt="slide">
-                    <div class="swiper-links"><a href="#" class="swiper-links__ref ref-neon">Графика</a>
+                  <div class="swiper-slide"><img src="../img/main/slideneo.jpg" alt="slide" class="swiper-slide-image">
+                    <div class="swiper-links"><a href="#" class="swiper-links__ref ref-neon">Графика
                         <svg class="swiper-slide-arrow" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 1H16M16 1V17M16 1L0.888889 16.1111" stroke="white" stroke-width="2"/>
                             </svg>
+                    </a>
                         <div class="swiper-social-icon"><a href="#"><img src="../img/Header/R.svg" alt="rutube-icon" class="swiper-social-icon_img"><img src="../img/Header/rutubeBIGbutton.svg" alt="socialButton" class="swiper-social-button_img"></a></div>
                     </div>
                 </div>
@@ -116,7 +126,7 @@
             <img src="../img/main/signalvideo.jpg" alt="decorimage">
         </div>
     </div>
-    <div class="main__service main-wrapper">
+    <div class="main__service main-wrapper" id="service">
         <h2 class="main__service-title main-title">Услуги</h2>
         <section class="main__service-body">
             <div class="main__service_container service_container-left">
@@ -178,7 +188,7 @@
             </div>
         </section>
     </div>
-    <div class="main__about">
+    <div class="main__about" id="about">
         <div class="main__about-wraper main-wrapper">
         <div class="about__advantages-container">
             <h2 class="about__advantages-title">Компания Signal работает на стыке технологий и творчества.
@@ -204,7 +214,7 @@
         </div>
     </div>
     </div>
-    <div class="main__partners-wrapper main-wrapper">
+    <div class="main__partners-wrapper main-wrapper" id="partners">
         <h2 class="main__partners-title main-title">партнеры</h2>
         <div class="partners__card-container partners-card">
             <div class="partners__card-picture"><img src="../img/main/partners/russia.png" alt="icon partners" class="partners__card-img"></div>
@@ -213,7 +223,7 @@
             <div class="partners__card-picture"><img src="../img/main/partners/depsport.png" alt="icon partners" class="partners__card-img"></div>
         </div>
     </div>
-    <div class="main__contacts_black-background">
+    <div class="main__contacts_black-background" id="contacts">
         <div class="main__contacts-wrapper main-wrapper">
             <h2 class="main__contacts-title main-title">Контакты</h2>
             <div class="main__contacts-container">
@@ -231,9 +241,9 @@
                         <label for="contacts__form-text">Сообщение<br>
                             <textarea name="contacts__form-text" id="contacts__form-text" cols="30" rows="10" form="contacts__form" maxlength="300" placeholder="Введите текст сообщения"></textarea>
                         </label>
-                        <button class="contacts__form_btn" clasform="contacts__form" type="submit">Отправить <!-- <svg class="btn-arrow" width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button class="contacts__form_btn" type="submit">Отправить <svg class="btn-arrow" width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.5 6.99985H16.5M16.5 6.99985L10.1667 0.990234M16.5 6.99985L10.1667 13.0095" stroke="#DBDBDB" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> --></button>
+                            </svg></button>
                     </form>
                 </div>
                 <div class="main__contacts-contacts">
@@ -273,16 +283,8 @@
                   </a>
                         </div>
                   <div class="nav-body">
-                        <div class="nav-img">
-                              <div class="nav_burger-img">
-                                    <img src="../img/Header/header_mobile/burger.png" alt="burger-icon">
-                              </div>
-                              <div class="nav_close-img">
-                                    <img src="../img/Header/header_mobile/close.png" alt="close-icon">
-                              </div>
-                        </div>
                         <nav class="nav">
-                              <ul class="nav-list-items">
+                              <ul class="nav-list-items footer-nav-list-items">
                                     <li class="nav-list__item"><a href="#">О нас</a></li>
                                     <li class="nav-list__item"><a href="#">Ролики</a></li>
                                     <li class="nav-list__item"><a href="#">Услуги</a></li>
@@ -291,7 +293,7 @@
                               </ul>
                         </nav>
                   </div>
-                  <div class="social-icon"><a href="#"><img src="../img/Header/R.svg" alt="rutube-icon" class="social-icon_img"><img src="../img/Header/rutubeBIGbutton.svg" alt="socialButton" class="social-button_img"></a></div>
+                  <div class="social-icon footer-social-icon"><a href="#" class="footer-social-ref"><img src="../img/footer/footrutube.png" alt="socialButton" class="footer-social-button_img"></a></div>
             </div>
             </div>
     </div>
